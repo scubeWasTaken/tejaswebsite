@@ -1,1 +1,0 @@
-<div id="post-<?php the_ID();?>" <?php post_class(); ?>>  <div>   <?php the_content(); ?>  </div>  <div class="post-comments">    <?php       if (comments_open() || get_comments_number()):        comments_template();      endif;    ?>  </div></div>
